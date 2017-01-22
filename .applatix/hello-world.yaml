@@ -1,0 +1,19 @@
+---
+type: service_template
+subtype: container
+name: hello-world
+description: Echo Hello World!
+
+inputs:
+  parameters:
+    commit:
+      default: "%%session.commit%%"
+    repo:
+      default: "%%session.repo%%"
+
+container: 
+  image: ubuntu
+  command: echo "Hello World!"
+  resources:
+    mem_mib: 256
+    cpu_cores: 0.1
