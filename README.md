@@ -6,4 +6,4 @@
 
 Run hello-world example 
 
-This is an example commit.xx
+This is an example commit.testing
