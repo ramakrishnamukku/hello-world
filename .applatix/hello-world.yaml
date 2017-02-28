@@ -12,7 +12,7 @@ inputs:
       default: "%%session.repo%%"
 
 container: 
-  image: ubuntu
+  image: 422152100797.dkr.ecr.us-west-2.amazonaws.com/ubuntu:latest
   command: echo "Hello World!"
   resources:
     mem_mib: 256
